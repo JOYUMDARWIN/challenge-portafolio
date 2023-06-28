@@ -1,0 +1,9 @@
+.sobre__mi{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 5rem;
+    padding: 1rem;
+    font-family:roboto, sans-serif;
+    color: #060674;
+}
