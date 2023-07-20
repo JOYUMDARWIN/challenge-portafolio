@@ -1,4 +1,8 @@
 .portafolio{
+    display: flex;
+    flex-direction: column;
     margin-left: 1rem;
     margin-right: 3rem;
+    font-family:roboto;
+    color: #060674;
 }

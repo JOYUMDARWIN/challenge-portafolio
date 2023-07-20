@@ -1,6 +1,11 @@
-.menu{
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-
+.menu {
+  display: flex;
+  justify-content:space-between;
+  padding: 1rem;
+  margin-left: -3rem;
+  position: fixed;
+  z-index: 1;
+  background: #f5ca66fa;
+  width: 100%;
+  
 }

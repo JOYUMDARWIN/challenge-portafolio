@@ -1,7 +1,6 @@
 .presentacion__redes{
-    position: absolute;
     display: flex;
     align-items: baseline;
-    margin-top: 13rem;
+    margin-top: 5rem;
     margin-left: 1.7rem;
 }

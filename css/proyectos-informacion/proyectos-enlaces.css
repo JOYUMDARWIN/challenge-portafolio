@@ -1,0 +1,37 @@
+.proyectos__enlace {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.proyectos__boton__rep {
+  color: #060674;
+  font-size: 1rem;
+  border: 1px solid #060674;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 2rem;
+  box-shadow: 5px 2px 7px #000000;
+  cursor: pointer;
+  background: #f5ca66fa;
+}
+.proyectos__boton__demo {
+  color: #060674;
+  font-size: 1rem;
+  border: 1px solid #060674;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 2rem;
+  box-shadow: 5px 2px 7px #000000;
+  cursor: pointer;
+  background: #f5ca66fa;
+}
+.proyectos__boton__rep:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.2s;
+  background-color: #9acd32;
+}
+.proyectos__boton__demo:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.2s;
+  background-color: #9acd32;
+}

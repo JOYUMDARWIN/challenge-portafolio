@@ -2,108 +2,372 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio Darwin Moreno</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/portafolio/portafolio.css">
-    <link rel="stylesheet" href="./css/menu/menu.css">
-    <link rel="stylesheet" href="./css/menu-header/menu-header.css">
-    <link rel="stylesheet" href="./css/menu-list/menu-list.css">
-    <link rel="stylesheet" href="./css/presentacion/presentacion.css">
-    <link rel="stylesheet" href="./css/presentacion/presentacion-datos.css">
-    <link rel="stylesheet" href="./css/presentacion/presentacion-imagen.css">
-    <link rel="stylesheet" href="./css/presentacion-informacion/presentacion-informacion.css">
-    <link rel="stylesheet" href="./css/presentacion-informacion/presentacion-titulo-biografia.css">
-    <link rel="stylesheet" href="./css/presentacion-informacion/presentacion-descripcion-biografia.css">
-    <link rel="stylesheet" href="./css/presentacion-redes/presentacion-redes.css">
-    <link rel="stylesheet" href="./css/presentacion-redes/presentacion-redes-items.css">
-    <link rel="stylesheet" href="./css/sobre-mi/sobre-mi.css">
-    <link rel="stylesheet" href="./css/sobre-mi/sobre-mi-titulo.css">
-    <link rel="stylesheet" href="./css/sobre-mi/sobre-mi-parrafo.css">
-    <link rel="stylesheet" href="./css/sobre-mi/sobre-mi-firma.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio Darwin Moreno</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./reset.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/portafolio/portafolio.css" />
+  <link rel="stylesheet" href="./css/menu/menu.css" />
+  <link rel="stylesheet" href="./css/menu-header/menu-header.css" />
+  <link rel="stylesheet" href="./css/menu-list/menu-list.css" />
+  <link rel="stylesheet" href="./css/presentacion/presentacion.css" />
+  <link rel="stylesheet" href="./css/presentacion/presentacion-datos.css" />
+  <link rel="stylesheet" href="./css/presentacion/presentacion-imagen.css" />
+  <link rel="stylesheet" href="./css/presentacion-informacion/presentacion-informacion.css" />
+  <link rel="stylesheet" href="./css/presentacion-informacion/presentacion-titulo-biografia.css" />
+  <link rel="stylesheet" href="./css/presentacion-informacion/presentacion-descripcion-biografia.css" />
+  <link rel="stylesheet" href="./css/presentacion-redes/presentacion-redes.css" />
+  <link rel="stylesheet" href="./css/presentacion-redes/presentacion-redes-items.css" />
+  <link rel="stylesheet" href="./css/sobre-mi/sobre-mi.css" />
+  <link rel="stylesheet" href="./css/sobre-mi/sobre-mi-titulo.css" />
+  <link rel="stylesheet" href="./css/sobre-mi/sobre-mi-parrafo.css" />
+  <link rel="stylesheet" href="./css/sobre-mi/sobre-mi-firma.css" />
+  <link rel="stylesheet" href="./css/skills/skills.css" />
+  <link rel="stylesheet" href="./css/skills-hard/skills-hard.css" />
+  <link rel="stylesheet" href="./css/skills-hard/skills-hard-icon.css" />
+  <link rel="stylesheet" href="./css/skills-hard/skills-hard-icon-box.css" />
+  <link rel="stylesheet" href="./css/skills-soft/skills-soft.css" />
+  <link rel="stylesheet" href="./css/skills-soft/skills-soft-titulo.css" />
+  <link rel="stylesheet" href="./css/skills-soft/skills-soft-lista.css" />
+  <link rel="stylesheet" href="./css/skills-soft/skills-soft-parrafo.css" />
+  <link rel="stylesheet" href="./css/hobbies/hobbies.css" />
+  <link rel="stylesheet" href="./css/hobbies/hobbies-titulo.css" />
+  <link rel="stylesheet" href="./css/hobbies/hobbies-box.css" />
+  <link rel="stylesheet" href="./css/formacion/formacion.css">
+  <link rel="stylesheet" href="./css/formacion/formacion-titulo.css">
+  <link rel="stylesheet" href="./css/formacion-desplegable/formacion-desplegable-box.css">
+  <link rel="stylesheet" href="./css/formacion-desplegable/formacion-despegable-curso.css">
+  <link rel="stylesheet" href="./css/formacion-desplegable/formacion-despegable-items.css">
+  <link rel="stylesheet" href="./css/formacion-desplegable/formacion-despegable-lugar.css">
+  <link rel="stylesheet" href="./css/proyectos/proyectos.css">
+  <link rel="stylesheet" href="./css/proyectos/proyecto-titulo.css">
+  <link rel="stylesheet" href="./css/proyectos-box/proyectos-box.css">
+  <link rel="stylesheet" href="./css/proyectos-box/proyectos-imagen.css">
+  <link rel="stylesheet" href="./css/proyectos-informacion/proyectos-informacion.css">
+  <link rel="stylesheet" href="./css/proyectos-informacion/proyectos-enlaces.css">
+  <link rel="stylesheet" href="./css/contacto/contacto.css">
+  <link rel="stylesheet" href="./css/contacto/contacto-box-imagen.css">
+  <link rel="stylesheet" href="./css/contacto/contacto-box-texto.css">
+  <link rel="stylesheet" href="./css/contacto-form/contacto-form.css">
+  <link rel="stylesheet" href="./css/footer/footer.css">
 
 </head>
 
 <body>
-    <div class="portafolio">
-        <section class="menu">
-            <header class="menu__header">
-                <img class="menu__imagenheader" src="./imagenes/icons8-portafolio-64.png" alt=>
-                <h1 class="menu__nombre">Darwin Moreno</h1>
-               
+  <div class="portafolio">
+    <section class="menu">
+      <header class="menu__header">
+        <img class="menu__imagenheader" src="./imagenes/icons8-portafolio-64.png" alt=>
+        <h1 class="menu__nombre">Darwin Moreno</h1>
+      </header>
+      <nav class="menu__navegacion">
+        <ul class="menu__list">
+          <li class="menu__list__item"><a href="#inicio">Inicio</a></li>
+          <li class="menu__list__item"><a href="#sobre__mi">Sobre mi</a></li>
+          <li class="menu__list__item"><a href="#skills">skills</a></li>
+          <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+          <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+          <li class="menu__list__item"><a href="#proyectos">Proyectos</a></li>
+          <li class="menu__list__item"><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </section>
+    <section class="presentacion" id="inicio">
+      <div class="presentacion__datos">
 
-            </header>
-            <nav class="menu__navegacion">
-                <ul class="menu__list">
-                    <li class="menu__list__item"><a href="">Sobre mi</a></li>
-                    <li class="menu__list__item"><a href="">Skill</a></li>
-                    <li class="menu__list__item"><a href="">Hobbies</a></li>
-                    <li class="menu__list__item"><a href="">Formación</a></li>
-                    <li class="menu__list__item"><a href="">Proyectos</a></li>
-                    <li class="menu__list__item"><a href="">Contacto</a></li>
+        <img class="presentacion__imagen" src="./imagenes/foto para perfil.jpg" alt="Foto de Darwin" />
+        <div class="presentacion__informacion">
+          <div class="presentacion__biografia">
+            <h1 class="presentacion__titulo__biografia">
+              Hola, mi nombre es Darwin Moreno y estoy aprendiendo
+              programación.
+            </h1>
+            <p class="presentacion__descripcion__biografia">
+              Soy Alumno del programa Oracle ONE G5 de Alura Latam, soy de
+              Venezuela, tengo 48 años y muchas ganas de aprender desarrollo
+              de software.
+            </p>
+          </div>
+
+          <ul class="presentacion__redes">
+            <li class="presentacion__redes__items">
+              <a href="https://github.com/JOYUMDARWIN">GitHub<img src="./imagenes/icons8-github-60.png"
+                  alt="icono de GitHub" /></a>
+            </li>
+            <li class="presentacion__redes__items">
+              <a
+                href=https://www.linkedin.com/in/darwin-moreno-2b4a1a265?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBzhgJs9STp6tYM7nG3iCXA%3D%3D"">Linkedin
+                <img src="./imagenes/icons8-linkedin-50.png" alt="icono de Linkedin" /></a>
+            </li>
+            <li class="presentacion__redes__items">
+              <a href="https://www.instagram.com/darwinmoreno747/#">Instagram
+                <img src="./imagenes/icons8-instagram-50.png" alt="icono de Instagram" /></a>
+            </li>
+            <li class="presentacion__curriculo">
+              <a href="">Curriculum<img src="./imagenes/icons8-curriculum-vitae-50.png" alt="icono de Curriculo " /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="sobre__mi">
+      <div class="sobre__mi">
+        <h3 class="sobre__mi__titulo">Sobre mi</h3>
+        <div class="sobre__mi__parrafo">
+          <p class="sobre__mi__parrafo1">
+            Nací el 12 de octubre de 1974, en la ciudad de Caracas, Venezuela,
+            de niño tenía buena habilidad para dibujar e interés de saber como
+            funcionaban los juguetes de batería que me regalaban mis padres,
+            eso me llevo a estudiar en la secundaria la mención de
+            Electrónica. Graduándome de Técnico medio en Electrónica, en
+            escuela Don Bosco donde tuve mis primeros contactos con la
+            programación.
+          </p>
+          <p class="sobre__mi__parrafo2">
+            Luego en el Instituto Universitario de Tecnología "Pedro Emilio
+            Coll" estudie Instrumentación y Automatización. Reforzando mis
+            conocimientos de electrónica y volviendo a tener contacto con
+            lógica y lenguajes de programación. Actualmente vivo en la ciudad
+            de Medellín-Colombia.
+          </p>
+        </div>
+        <img class="sobre__mi__firma" src="./imagenes/firma.png" alt="firna personal" />
+      </div>
+    </section>
+    <section id="skills">
+      <div class="skills">
+        <h3 class="skills__titulo">Skills</h3>
+        <div class="skills__hard">
+          <h4 class="skills__hard__titulo">Hard Skills</h4>
+          <div class="skills__hard__icon">
+            <ul class="skills__hard__icon__box">
+              <li class="skills__hard__icon__html">
+                <img src="./imagenes/icons8-html-5-96.png" />
+              </li>
+              <li class="skills__hard__html">HTML 5</li>
+            </ul>
+            <ul class="skills__hard__icon__box">
+              <li class="skills__icon__css">
+                <img src="./imagenes/icons8-css3-96.png" />
+              </li>
+              <li class="skills__hard__css">CSS 3</li>
+            </ul>
+            <ul class="skills__hard__icon__box">
+              <li class="skills__hard__icon__js">
+                <img src="./imagenes/icons8-javascript-96.png" />
+              </li>
+              <li class="skills__hard__js">JAVA SCRIPT</li>
+            </ul>
+            <ul class="skills__hard__icon__box">
+              <li class="skills__hard__icon__vec">
+                <img src="./imagenes/icons8-visual-studio-code-2019-96.png" />
+              </li>
+              <li class="skills__hard__vec">V. E. C.</li>
+            </ul>
+            <ul class="skills__hard__icon__box">
+              <li class="skills__hard__icon__git">
+                <img src="./imagenes/icons8-git-96.png" />
+              </li>
+              <li class="skills__hard__git">GIT</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skills__soft">
+          <h4 class="skills__soft__titulo">Soft Skills</h4>
+          <ul class="skills__soft__lista">
+            <li class="skills__soft__items">Trabajo en equipo</li>
+            <li class="skills__soft__items">Transmitir Conocimientos</li>
+            <li class="skills__soft__items">Colaborador</li>
+            <li class="skills__soft__items">Adaptabilidad</li>
+            <li class="skills__soft__items">Honesto</li>
+          </ul>
+          <p class="skills__soft__parrafo">
+            En múltiples oportunidades tanto en la Universidad como en el área
+            de trabajo he tenido la experiencia de ayudar a diferentes
+            compañeros, a través de la transmisión de conocimientos, a lograr
+            sus objetivos personales tanto de estudio como de solución de
+            problemas técnicos laborales, estoy seguro de que esa es mi
+            principal Soft Skill.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="hobbies">
+      <div class="hobbies">
+        <h3 class="hobbies__titulo">Hobbies</h3>
+        <div class="hobbies__box">
+          <ul class="hobbies__box__icon">
+            <li class="hobbies__box__icon__correr">
+              <img src="./imagenes/icons8-correr-100.png" />
+            </li>
+            <li class="hobbies__box__correr">CORRER</li>
+          </ul>
+          <ul class="hobbies__box__icon">
+            <li class="hobbies__box__icon__trail">
+              <img src="./imagenes/icons8-montaña-100.png" />
+            </li>
+            <li class="hobbies__box__trail">TRAIL RUNNER</li>
+          </ul>
+          <ul class="hobbies__box__icon">
+            <li class="hobbies__box__icon__musica">
+              <img src="./imagenes/icons8-escuchar-musica-100.png" />
+            </li>
+            <li class="hobbies__box__musica">ESCUCHAR MUSICA</li>
+          </ul>
+          <ul class="hobbies__box__icon">
+            <li class="hobbies__box__icon__leer">
+              <img src="./imagenes/icons8-leer-100.png" />
+            </li>
+            <li class="hobbies__box__leer">LEER</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="formacion">
+      <div class="formacion__box">
+        <h3 class="formacion__titulo">Formación</h3>
+        <div class="Formacion">
+          <div class="formacion__desplegable__box">
+            <ul class="formacion__desplegable__curso">
+              <li class="formacion__desplegable__items">
+                Formación en Electrónica
+                <ul class="formacion__desplegable__lugar">
+                  <li>Escuela Técnica Don Bosco</li>
+                  <li>Caracas-Venezuela 1992</li>
                 </ul>
-            </nav>
-        </section>
-
-        <section class="presentacion">
-            <div class="presentacion__datos">
-                <img class="presentacion__imagen" src="./imagenes/foto para perfil.jpg" alt="Foto de Darwin">
-                <div class="presentacion__informacion">
-                    <div class="presentacion__biografia">
-                        <h1 class="presentacion__titulo__biografia">Hola, mi nombre es Darwin Moreno y estoy aprendiendo
-                            programación.</h1>
-                        <p class="presentacion__descripcion__biografia">Soy Alumno del programa Oracle ONE G5 de Alura
-                            Latam, soy de
-                            Venezuela, tengo 48 años y muchas ganas de aprender desarrollo de software.</p>
-                    </div>
-                    <ul class="presentacion__redes">
-                        <li class="presentacion__redes__items"><a href="">GitHub<img
-                                    src="./imagenes/icons8-github-60.png" alt="icono de GitHub"></a></li>
-                        <li class="presentacion__redes__items"><a href="">Linkedin <img
-                                    src="./imagenes/icons8-linkedin-50.png" alt="icono de Linkedin"></a></li>
-                        <li class="presentacion__redes__items"><a href="">Discort <img src="./imagenes/discord.png"
-                                    alt="icono de discord"></a></li>
-                        <li class="presentacion__curriculo"><a href="">Curriculum<img
-                                    src="./imagenes/icons8-curriculum-vitae-50.png" alt="icono de Curriculo "></a></li>
-                    </ul>
-                </div>
+              </li>
+            </ul>
+            <ul class="formacion__desplegable__curso">
+              <li class="formacion__desplegable__items">
+                Formación en Instrumentación
+                <ul class="formacion__desplegable__lugar">
+                  <li>I.U.T. Pedro Emilio Coll</li>
+                  <li>Ciudad Guayana-Venezuela 2007</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="formacion__desplegable__curso">
+              <li class="formacion__desplegable__items">
+                Formación en Desarrollo Personal
+                <ul class="formacion__desplegable__lugar">
+                  <li>Alura+Oracle</li>
+                  <li>Medellín-Colombia 2023</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="formacion__desplegable__curso">
+              <li class="formacion__desplegable__items">
+                Formación Principiante en programación
+                <ul class="formacion__desplegable__lugar">
+                  <li>Alura+Oracle</li>
+                  <li>Medellín-Colombia 2023</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="formacion__desplegable__curso">
+              <li class="formacion__desplegable__items">
+                Formación en HTML5 y CSS3
+                <ul class="formacion__desplegable__lugar">
+                  <li>Alura+Oracle</li>
+                  <li>Medellín-Colombia 2023</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="formacion__desplegable__curso">
+              <li class="formacion__desplegable__items">
+                Formación en Business Agility
+                <ul class="formacion__desplegable__lugar">
+                  <li>Alura+Oracle</li>
+                  <li>Medellín-Colombia 2023</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="formacion__desplegable__curso">
+              <li class="formacion__desplegable__items">
+                Formación en Fron End
+                <ul class="formacion__desplegable__lugar">
+                  <li>Alura+Oracle</li>
+                  <li>En curso</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="formacion__desplegable__curso">
+              <li class="formacion__desplegable__items">
+                Ingles
+                <ul class="formacion__desplegable__lugar">
+                  <li>Yes Med!+Voxy</li>
+                  <li>En curso</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="proyectos">
+      <div class="proyectos">
+        <h3 class="proyectos__titulo">Proyectos</h3>
+        <div class="proyectos__box">
+          <img class="proyectos__imagen" src="./imagenes/pantalla-encriptador.png"
+            alt="imagen del proyecto encriptador de texto">
+          <div class="proyectos__informacion">
+            <h3 class="proyectos__titulo__box">Encriptador de Texto</h3>
+            <p class="proyectos__descripcion">Primer reto del programa Oracle Nex Education y Alura Latam, donde
+              plasmamos
+              los conocimientos adquiridos en los cursos de iniciación en la programación. Se trata de Desarrollar una
+              aplicación con la capacidad de encriptar un mensaje, de allí su nombre. Utilizamos tecnología HTML5, CSS3
+              y
+              JavaScript, para estructurar, dar estilo y funcionalidad respectivamente. Desarrollamos funciones de
+              encriptación y desencriptaron a demás de funciones de copiado y ocultamiento de display, dicho sea de
+              paso,
+              las llaves de encriptar y desencriptar los mensajes, fueron suministrados previamente para mantener un
+              patrón.</p>
+            <div class="proyectos__enlace">
+              <span class="proyectos__enlace__rep"><a href=" https://github.com/JOYUMDARWIN/encriptador "><button
+                    class="proyectos__boton__rep">Repositorio en
+                    GitHub</button></a></span>
+              <span class="proyectos__enlace__demo"><a href="https://joyumdarwin.github.io/encriptador/ "><button
+                    class="proyectos__boton__demo">Pruebe la
+                    Aplicación</button></a></span>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contacto">
+      <div class="contacto">
+        <div class="contacto__box__imagen">
+          <img class="contacto__imagen" src="./imagenes/contacto-julian-hochgesang-psGV5KhidlY-unsplash.jpg"
+            alt="computador y telefono en un escritorio">
+        </div>
+        <div class="contacto__box__texto">
+          <div class="contacto__texto">
+            <h1 class="contacto__titulo">Contacto</h1>
+            <h2 class="contacto__tituloPregunta">¿Quiere contactarme?</h2>
+            <h3 class="contacto__tituloInstruccion">Complete el siguiente fomulario</h3>
+          </div>
+          <form class="contacto__form" name="form">
+            <input class="contacto__formInput" type="text" name="nombre" placeholder="Nombre">
+            <input class="contacto__formInput" type="email" name="email" placeholder="E-mail">
+            <input class="contacto__formInput" type="text" name="asunto" placeholder="Asunto">
+            <textarea class="contacto__formtextarea" rows="5" cols="40" id="mensagem" name="mensaje"
+              placeholder="Mensaje"></textarea>
+            <button type="submit" class="contacto__formBoton">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>Desarrollado por Darwin Moreno</p>
+      <p>2023</p>
+    </footer>
+ 
 
-
-        </section>
-        <section class="sobre">
-            <div class="sobre__mi">
-                <h3 class="sobre__mi__titulo">Sobre mi</h3>
-                <div class="sobre__mi__parrafo">
-                    <p class="sobre__mi__parrafo1">Nací el 12 de Octubre de 1974, en la ciudad de Caracas Venezuela, de niño tenia buena habilidad
-                        para dibujar e interés de saber como funcionaban los juguetes de batería que me regalaban mis
-                        padres, eso me llevo a estudiar en la secundaria la mención de Electrónica. Graduándome de
-                        Técnico medio en Electrónica, en escuela Don Bosco donde tuve mis primeros contactos con la
-                        programación.
-                    </p>
-                    <p class="sobre__mi__parrafo2">Luego en el Instituto Universitario de Tecnologia "Pedro Emilio Coll" estudie
-                        Instrumentación y Automatización. Reforzando mis
-                        conocimientos de electrónica y volviendo a tener contacto con lógica y lenguajes de
-                        programación. Actualmente vivo en la ciudad de Medellin-Colombia.</p>
-                </div>
-                <img class="sobre__mi__firma" src="./imagenes/firma.png" alt="firna personal">
-            </div>
-        </section>
-
-
-
-
-
-
-
-    </div>
-
+  </div>
 </body>
 
 </html>

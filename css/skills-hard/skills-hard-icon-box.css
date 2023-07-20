@@ -1,0 +1,8 @@
+.skills__hard__icon__box{
+    text-align: center;
+    
+}
+.skills__hard__icon__box:hover{
+    transform: scale(1.2, 1.2);
+    transition: 0.2s;
+}

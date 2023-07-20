@@ -1,0 +1,8 @@
+.skills__hard__titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    text-shadow: 5px 2px 7px #000000;
+    margin-left: 2rem;
+    margin-top: 3rem;
+}

@@ -1,0 +1,14 @@
+.formacion__desplegable__curso {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 10rem;
+  width: 40%;
+  margin: 40px 40px 40px 40px;
+}
+.formacion__desplegable__curso li {
+  padding: 0.5rem 1rem;
+}
+.formacion__desplegable__curso:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.2s;
+}

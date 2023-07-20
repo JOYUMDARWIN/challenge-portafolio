@@ -1,0 +1,11 @@
+.formacion__desplegable__items {
+  position: relative;
+  border: 1px solid #060674;
+  border-radius: 1rem;
+  width: 20rem;
+  box-shadow: 5px 2px 7px #000000;
+}
+.formacion__desplegable__items:hover .formacion__desplegable__lugar {
+  display: block;
+  opacity: 1;
+}

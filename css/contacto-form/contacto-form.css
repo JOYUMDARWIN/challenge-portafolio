@@ -1,0 +1,46 @@
+.contacto__formInput {
+  margin: 0.5rem;
+  border: 1px solid #060674;
+  border-radius: 1rem;
+  width: 25rem;
+  height: 2rem;
+  box-shadow: 5px 2px 7px #000000;
+}
+
+.contacto__formInput::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 2rem;
+}
+
+.contacto__formtextarea {
+  margin: 0.5rem;
+  border: 1px solid #060674;
+  border-radius: 1rem;
+  width: 25rem;
+  height: 5rem;
+  box-shadow: 5px 2px 7px #000000;
+}
+.contacto__formtextarea::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 5rem;
+}
+
+.contacto__formBoton {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  color: #060674;
+  font-size: 1rem;
+  border: 1px solid #060674;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 2rem;
+  box-shadow: 5px 2px 7px #000000;
+  cursor: pointer;
+  background: #f5ca66fa;
+}
+
+.contacto__formBoton:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.2s;
+  background-color: #9acd32;
+}

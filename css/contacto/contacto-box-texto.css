@@ -1,0 +1,15 @@
+.contacto__box__texto{
+    display: flex;
+    flex-direction: column;
+}
+
+.contacto__titulo{
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 5px 2px 7px #000000;
+    margin: 1rem;
+    margin-left: 2rem;
+}
+.contacto__texto{
+    margin-bottom: 2rem;
+}

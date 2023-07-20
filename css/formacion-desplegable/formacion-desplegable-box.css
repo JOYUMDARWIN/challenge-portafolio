@@ -1,0 +1,10 @@
+.formacion__desplegable__box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}

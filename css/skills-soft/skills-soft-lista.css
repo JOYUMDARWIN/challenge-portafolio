@@ -1,0 +1,11 @@
+.skills__soft__lista{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 3rem 2rem 3rem;
+}
+
+.skills__soft__items:hover{
+    transform: scale(1.5, 1.5);
+    transition: 0.2s;
+}

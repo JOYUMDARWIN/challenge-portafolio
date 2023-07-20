@@ -1,9 +1,10 @@
 .presentacion__informacion{
     display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: roboto, sans-serif;
     font-weight: 300;
     color: #060674;
-    margin-left: 20rem;
+    
      
 }

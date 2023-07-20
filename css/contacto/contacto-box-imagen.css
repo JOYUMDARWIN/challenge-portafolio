@@ -1,0 +1,7 @@
+.contacto__imagen{
+    width: 40%;
+}
+.contacto__box__imagen{
+    display: flex;
+    justify-content: center;
+}

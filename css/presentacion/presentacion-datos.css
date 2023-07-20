@@ -1,3 +1,5 @@
 .presentacion__datos{
     display: flex;
+    flex-direction:row;
+    margin-top: 6rem;
 }
