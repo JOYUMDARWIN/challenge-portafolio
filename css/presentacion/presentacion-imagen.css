@@ -1,10 +1,14 @@
 .presentacion__imagen {
-    width: 200px;
-    height: 200px;
-    margin-right: 5rem;
-    margin-left: 4rem;
-    border-radius: 100px;
-    box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 1);
-
-
+  width: 200px;
+  height: 200px;
+  margin-right: 5rem;
+  margin-left: 4rem;
+  border-radius: 100px;
+  box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 1);
+}
+@media screen and (max-width: 425px) {
+    .presentacion__imagen{
+        margin-left: 6rem
+    }
+    
 }

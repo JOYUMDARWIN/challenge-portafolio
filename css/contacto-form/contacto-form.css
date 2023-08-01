@@ -39,11 +39,8 @@
   background: #f5ca66fa;
 }
 
-.contacto__formBoton:hover {
-  transform: scale(1.1, 1.1);
-  transition: 0.2s;
-  background-color: #9acd32;
-}
+
+
 @media screen and (max-width: 425px) {
   .contacto__formInput {
     width: 18rem;
@@ -60,4 +57,5 @@
     width: 18rem;
     margin-left: 0rem;
   }
+
 }

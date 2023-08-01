@@ -6,3 +6,9 @@
     margin-left: 2rem;
     margin-top: 3rem;
 }
+@media screen and (max-width:425px) {
+    .skills__soft__titulo{
+        margin-left: 0rem;
+    }
+    
+}
