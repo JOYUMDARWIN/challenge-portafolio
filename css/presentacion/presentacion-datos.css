@@ -1,5 +1,14 @@
-.presentacion__datos{
-    display: flex;
-    flex-direction:row;
-    margin-top: 6rem;
+.presentacion__datos {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6rem;
 }
+
+@media screen and (max-width: 425px) {
+    .presentacion__datos{
+      flex-direction: column;
+      margin-top: 1rem
+  
+    }
+  
+  }

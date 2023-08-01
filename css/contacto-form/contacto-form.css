@@ -44,3 +44,20 @@
   transition: 0.2s;
   background-color: #9acd32;
 }
+@media screen and (max-width: 425px) {
+  .contacto__formInput {
+    width: 18rem;
+  }
+  .contacto__formtextarea {
+    width: 18rem;
+  }
+  .contacto__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacto__formBoton{
+    width: 18rem;
+    margin-left: 0rem;
+  }
+}

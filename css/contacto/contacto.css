@@ -3,6 +3,14 @@
     flex-direction: row-reverse;
     align-items: center;
     margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-bottom: 0.5rem;
     margin-left: 3rem;
+}
+@media screen and (max-width: 425px) {
+    .contacto{
+        margin-top: 1rem;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    
 }

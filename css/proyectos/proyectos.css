@@ -2,3 +2,9 @@
     margin-top: 8rem;
     padding: 1rem;
 }
+@media screen and (max-width: 425px) {
+    .proyectos{
+        margin-top: 1rem;
+    }
+    
+}

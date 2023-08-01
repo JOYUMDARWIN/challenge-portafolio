@@ -8,3 +8,10 @@
     
      
 }
+@media screen and (max-width: 425px){
+    .presentacion__informacion{
+        flex-direction: column;
+        align-items: baseline;
+
+    }
+}

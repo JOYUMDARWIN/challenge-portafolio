@@ -30,7 +30,6 @@
   <link rel="stylesheet" href="./css/skills-hard/skills-hard.css" />
   <link rel="stylesheet" href="./css/skills-hard/skills-hard-icon.css" />
   <link rel="stylesheet" href="./css/skills-hard/skills-hard-icon-box.css" />
-  <link rel="stylesheet" href="./css/skills-soft/skills-soft.css" />
   <link rel="stylesheet" href="./css/skills-soft/skills-soft-titulo.css" />
   <link rel="stylesheet" href="./css/skills-soft/skills-soft-lista.css" />
   <link rel="stylesheet" href="./css/skills-soft/skills-soft-parrafo.css" />
@@ -53,6 +52,7 @@
   <link rel="stylesheet" href="./css/contacto/contacto-box-imagen.css">
   <link rel="stylesheet" href="./css/contacto/contacto-box-texto.css">
   <link rel="stylesheet" href="./css/contacto-form/contacto-form.css">
+  <link rel="stylesheet" href="./css/contacto-form/mensaje-error.css">
   <link rel="stylesheet" href="./css/footer/footer.css">
 
 </head>
@@ -100,7 +100,7 @@
             </li>
             <li class="presentacion__redes__items">
               <a
-                href=https://www.linkedin.com/in/darwin-moreno-2b4a1a265?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BBzhgJs9STp6tYM7nG3iCXA%3D%3D"">Linkedin
+                href=https://www.linkedin.com/in/darwin-moreno-968541285>Linkedin
                 <img src="./imagenes/icons8-linkedin-50.png" alt="icono de Linkedin" /></a>
             </li>
             <li class="presentacion__redes__items">
@@ -316,7 +316,7 @@
             alt="imagen del proyecto encriptador de texto">
           <div class="proyectos__informacion">
             <h3 class="proyectos__titulo__box">Encriptador de Texto</h3>
-            <p class="proyectos__descripcion">Primer reto del programa Oracle Nex Education y Alura Latam, donde
+            <p class="proyectos__descripcion">Primer reto del programa Oracle Nex Education. Grupo 5 y Alura Latam, donde
               plasmamos
               los conocimientos adquiridos en los cursos de iniciación en la programación. Se trata de Desarrollar una
               aplicación con la capacidad de encriptar un mensaje, de allí su nombre. Utilizamos tecnología HTML5, CSS3
@@ -350,13 +350,13 @@
             <h2 class="contacto__tituloPregunta">¿Quiere contactarme?</h2>
             <h3 class="contacto__tituloInstruccion">Complete el siguiente fomulario</h3>
           </div>
-          <form class="contacto__form" name="form">
-            <input class="contacto__formInput" type="text" style="text-align: center;" name="nombre" placeholder="Nombre">
-            <input class="contacto__formInput" type="email" style="text-align: center;" name="email" placeholder="E-mail">
-            <input class="contacto__formInput" type="text" style="text-align: center;"name="asunto" placeholder="Asunto">
-            <textarea class="contacto__formtextarea" rows="5" cols="40" id="mensagem" style="text-indent: 0.5rem;"  name="mensaje"
-              placeholder="Mensaje"></textarea>
-            <button type="submit" class="contacto__formBoton">Enviar mensaje</button>
+          <form class="contacto__form" id="form">
+            <input class="contacto__formInput" id="nombre" type="text" style="text-align: center;" placeholder="Nombre">
+            <input class="contacto__formInput" id="correo" type="email" style="text-align: center;" placeholder="E-mail" >
+            <input class="contacto__formInput" id="asunto" type="text" style="text-align: center;" placeholder="Asunto" >
+            <textarea class="contacto__formtextarea" id="mensaje"  rows="5" cols="40" style="text-indent: 0.5rem;" placeholder="Mensaje"></textarea>
+            <button type="submit" class="contacto__formBoton" formnovalidate>Enviar mensaje</button>
+            <p class="mensajeError" id="mensajeError"></p>
           </form>
         </div>
       </div>
@@ -368,6 +368,7 @@
  
 
   </div>
+  <script src="./js/validacion.js"></script>
 </body>
 
 </html>

@@ -9,3 +9,9 @@
   display: block;
   opacity: 1;
 }
+@media screen and (max-width: 425px) {
+  .formacion__desplegable__items{
+    width: 18rem;
+  }
+  
+}

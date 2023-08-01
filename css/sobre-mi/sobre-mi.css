@@ -7,3 +7,10 @@
     color: #060674;
     margin-top: 10rem;
 }
+
+@media screen and (max-width: 425px) {
+    .sobre__mi{
+        margin-top: 1rem;
+    }
+    
+  }

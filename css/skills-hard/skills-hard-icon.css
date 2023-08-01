@@ -1,5 +1,11 @@
-.skills__hard__icon{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 2rem;
+.skills__hard__icon {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 425px) {
+  .skills__hard__icon {
+    flex-wrap: wrap;
+  }
 }

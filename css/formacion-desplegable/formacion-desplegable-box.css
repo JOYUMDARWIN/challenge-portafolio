@@ -8,3 +8,9 @@
   margin-bottom: 2rem;
   font-size: 1.1rem;
 }
+@media screen and (max-width: 425px) {
+  .formacion__desplegable__box{
+    margin-left: 2rem;
+  }
+  
+}

@@ -1,3 +1,10 @@
 .proyectos__imagen{
     width: 50%;
 }
+@media screen and (max-width: 425px) {
+    .proyectos__imagen{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+}

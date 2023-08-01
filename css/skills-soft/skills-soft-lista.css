@@ -3,9 +3,18 @@
     justify-content: space-around;
     align-items: center;
     margin: 2rem 3rem 2rem 3rem;
+    
 }
 
 .skills__soft__items:hover{
     transform: scale(1.5, 1.5);
     transition: 0.2s;
+}
+
+@media screen and (max-width: 425px) {
+    .skills__soft__lista{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    
 }
